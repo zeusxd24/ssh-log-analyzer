@@ -84,7 +84,7 @@ def test_parse_log_missing_file_exits(tmp_path):
         parse_log(str(tmp_path / "yok.log"))
  
  
-# --- analyze testleri ---
+# --- analyze testleri ---s
  
 def test_analyze_counts_ips(log_file):
     ips, _, _ = analyze(parse_log(log_file))
